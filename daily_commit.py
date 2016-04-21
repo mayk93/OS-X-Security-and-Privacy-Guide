@@ -63,13 +63,17 @@ def create_repo_on_remote(name):
     os.system("""curl -H "Authorization: token %s" --data '{"name":"%s"}' https://api.github.com/user/repos""" % (TOKEN, name))
 
 
+def change_local_to_remote(name):
+    os.system("cd ClonedRepos/" + name + "/" + name + "; git remote rename origin upstream; git remote add origin " + REMOTE_PATH + name + ".git; git push origin master")
+
+
 def main():
     client = github.Github()
     result = client.search_repositories(query=get_query(), sort="stars", order="desc")
     repo_url, repo_name = choose_repo(result)
     clone(repo_url, repo_name)
     create_repo_on_remote(repo_name)
-
+    change_local_to_remote(repo_name)
 
 if __name__ == "__main__":
     main()
