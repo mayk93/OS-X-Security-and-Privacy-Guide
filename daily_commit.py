@@ -20,6 +20,7 @@ import github
 # -----
 
 
+# Constants
 LANGUAGES = ["python", "python", "python", "go", "javascript"]
 
 
