@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b81dc96-ca1f-4081-87a9-73b85663f1bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daily_commit.py" afterPath="$PROJECT_DIR$/daily_commit.py" />
     </list>
     <ignored path="DailyCommit.iws" />
@@ -18,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DailyCommit$daily_commit.coverage" NAME="daily_commit Coverage Results" MODIFIED="1461279713241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DailyCommit$daily_commit.coverage" NAME="daily_commit Coverage Results" MODIFIED="1461280866513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="daily_commit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/daily_commit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+            <state relative-caret-position="435">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding>
                 <element signature="e#53#92#0" expanded="true" />
               </folding>
@@ -457,16 +455,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/daily_commit.py</url>
-          <line>30</line>
+          <line>45</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/daily_commit.py</url>
-          <line>31</line>
+          <line>46</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/daily_commit.py</url>
-          <line>33</line>
+          <line>48</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -493,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daily_commit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+        <state relative-caret-position="435">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding>
             <element signature="e#53#92#0" expanded="true" />
           </folding>
